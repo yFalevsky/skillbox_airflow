@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 import sklearn
 
-path = os.environ.get('PROJECT_PATH', '.')
+path = os.environ.get('$PROJECT_PATH', '')
 
 
 def predict():
